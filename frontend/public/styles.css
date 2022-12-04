@@ -1,0 +1,244 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  body {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  image{
+    width:10px;
+    height:10px;
+  }
+  
+  /* Navbar */
+  .nav-link {
+    color: white !important;
+    border-bottom: 1px solid transparent;
+    font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS", sans-serif;
+  }
+  .nav-link:hover {
+    border-bottom: 1px solid white;
+  }
+  
+  /* Home */
+  .home {
+    padding: 30px;
+    width: 600px;
+    height: 550px;
+    position: center;
+    background-color: #f3c4cd;
+    box-shadow: 10px 10px 20px black;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .title {
+    text-align: center;
+  }
+  img {
+    width: 400px;
+    height: 400px;
+  }
+  
+  /* Create Account */
+  .account {
+    width: 700px;
+    box-shadow: 10px 10px 20px black;
+    border-radius: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    background-color: #f3c4cd;
+  }
+
+  .card{
+    background-color:#f3c4cd ;
+    
+  }
+  .error {
+    color: red;
+  }
+  .form-label {
+    font-weight: bold;
+  }
+  .mb-3{
+    background-color: #f3c4cd;
+    padding-left: 30px;
+  }
+  /* Login Page */
+  
+  .login{
+    width: 700px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+
+  /* Deposit */
+  .deposit {
+    width: 700px;
+    box-shadow: 10px 10px 20px black;
+    border-radius: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  input {
+    width: 650px;
+  }
+  
+  /* .btnstyle {
+    background: #0059FF;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 12px;
+    box-shadow: 3px 3px 5px black;
+    color: white;
+  }
+  .btnstyle:hover{
+    background: crimson;
+  } */
+  
+  .btnstyle{
+    padding: 5px;
+    width: 100px;
+    cursor: pointer;
+    background: #59253a;
+    transition: .5s ease;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+    align-items: center;
+  }
+
+  .btnstyle1{
+    padding: 5px;
+    width: 200px;
+    cursor: pointer;
+    background: #59253a;
+    transition: .5s ease;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+    align-items: center;
+  }
+
+  .btnstyle:hover{
+    /* background-color: darksalmon; */
+    color: black;
+  }
+
+  .btnstyle1:hover{
+    /* background-color: darksalmon; */
+    color: black;
+  }
+ 
+  /* withdraw */
+  .withdraw {
+    width: 700px;
+    box-shadow: 10px 10px 20px black;
+    border-radius: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  /* All Data */
+  .alldata {
+    box-shadow: 10px 10px 20px black;
+    border-radius: 10px;
+    width: 1100px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .alldata .card-headera{
+    color: yellow;
+  }
+  #users {
+    width: 1000px;
+    border: 1px solid black;
+  }
+  
+  td {
+    color: sienna;
+    font-weight: bold;
+    padding: 15px;
+    text-align: left;
+  }
+  
+  th {
+    background: linear-gradient(135deg, #71b7e6, #9b59);
+    color: black;
+    padding: 15px;
+    text-align: left;
+  }
+  
+  /* my code style */
+
+  .heading{
+    background-color: #59253a;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    padding-bottom: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.heading-ca{
+  background-color: #59253a;
+  font-family: 'Times New Roman', Times, serif;
+  color:white;
+  padding: 4px;
+  font-size: 25px;
+  text-align: center;
+  font-style: italic;
+  
+}
+
+.body{
+  background-color: #f3c4cd;
+  padding-left:0px;
+  padding:80px;
+  padding-top:0px;
+  padding-left: 1px;
+  padding-right: 1px;
+  width:800px;
+}
+
+.head-bal{
+  padding-top: 100px;
+  padding-right: 100px;
+  background-color: #59253a;
+  font-family: 'Times New Roman', Times, serif;
+  color:white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.heading-bal{
+  background-color: #59253a;
+  font-family: 'Times New Roman', Times, serif;
+  color:white;
+  padding: 4px;
+  font-size: 25px;
+  text-align: center;
+  font-style: italic;
+}
+
+.form-control1{
+  width: 650px;
+  padding-left: 20px;
+  border-radius: 5px;
+  
+}
+
+.form-label1{
+  padding-left: 30px;
+  font-weight: bold;
+  color: #59253a;
+}
+
+.form-label{
+  color: #59253a;
+  font-weight: bold;
+  
+}
+
+.form-control{
+  width: 600px;
+
+}
